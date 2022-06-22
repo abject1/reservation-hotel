@@ -1,0 +1,171 @@
+/* CLASSES GENERAL */
+.container {
+  width: 90vw;
+  display: block;
+  margin: auto;
+  border-radius: var(--borderRadiusClassic); }
+
+.underline404 {
+  height: 5px;
+  width: 30vw;
+  background-color: var(--grey400);
+  display: block;
+  margin: 0 auto; }
+
+.underlineShopHeader {
+  height: 5px;
+  width: 90vw;
+  background-color: var(--grey400);
+  display: block;
+  margin: 0.4rem auto; }
+
+.underlineAbout {
+  height: 5px;
+  width: 40vw;
+  background-color: var(--grey400);
+  display: block;
+  margin: 0 auto; }
+
+.seenNextMyPresentation {
+  display: block !important; }
+
+.seenNextEntreprise {
+  display: block !important; }
+
+.navigationSeen {
+  display: block !important; }
+
+.underlineTitleHeader {
+  height: 5px;
+  width: 85vw;
+  background-color: var(--grey400);
+  display: block;
+  margin: auto; }
+
+.ulPresentationSeen {
+  display: inline !important; }
+
+.ulProduitSeen {
+  display: inline !important; }
+
+/* ROOT */
+:root {
+  margin: 0;
+  padding: 0; }
+
+/* Font size general */
+html {
+  font-size: 100%; }
+
+/*16px*/
+/* BODY General */
+body {
+  font-family: var(--body-font);
+  font-size: var(--font-size-normal);
+  color: var(--black);
+  background-color: var(--background-color); }
+
+/* TITLE */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+  color: var(--black); }
+
+h1 {
+  font-size: 1.3rem; }
+
+h2 {
+  font-size: 1.2rem; }
+
+h3 {
+  font-size: 1.1rem; }
+
+h4 {
+  font-size: 1rem; }
+
+h5 {
+  font-size: 0.9rem; }
+
+h6 {
+  font-size: 0.8rem; }
+
+/* Lien */
+a {
+  text-decoration: none;
+  color: #030200; }
+
+a:hover {
+  font-size: 1.3rem;
+  color: #FADFA0; }
+
+/* Liste */
+ul,
+ol {
+  list-style: none;
+  color: #030200; }
+
+/* Boutton */
+.btn {
+  border: var(--borderClassicBlac);
+  border-radius: 5px;
+  color: black;
+  background-color: var(--white);
+  display: block;
+  margin: auto; }
+
+/* Underline */
+.underlineGeneral {
+  height: 5px;
+  width: 90vw;
+  background-color: var(--black);
+  border-radius: 5px;
+  margin: auto; }
+
+/* Variables */
+:root {
+  /* FONT */
+  /* TITLE */
+  --title-font: 'font-2', sans-serif;
+  --body-font: 'font-1', sans-serif;
+  /* FONT-SIZE */
+  --font-size-small: 0.4rem;
+  --font-size-normal: 0.8rem;
+  --font-size-big: 1rem;
+  /* COLORS */
+  --white: #fff;
+  --black: #000;
+  --lightRed: #FF4F4F;
+  --darkRed: #FF0000;
+  --lightPurple: #F045FE;
+  --darkPurple: #EC00FF;
+  --lightBlue: #5D4AF7;
+  --darkBlue: #1B00FF;
+  --titleColor: #523a09d1;
+  /* GREY */
+  --grey50: #DCDCDC;
+  --grey100: #C0C0C0;
+  --grey200: #A5A5A5;
+  --grey300: #909090;
+  --grey400: #747474;
+  /* COLORS SPECIAL */
+  --background-color: #FCFAF3;
+  --navBar-color: #FADFA0;
+  --facebook-color: #3b5998;
+  --discord-color: #7289da;
+  /* BORDER */
+  --borderClassicBlack: 2px var(--black) solid;
+  --borderRadiusClassic: 20px; }
+
+@font-face {
+  :root {
+    font-family: "font-1";
+    src: url(../assets/fonts/RobotoSlab.ttf); } }
+
+@font-face {
+  :root {
+    font-family: "font-2";
+    src: url(../assets/fonts/BIZUDPMincho.ttf); } }
