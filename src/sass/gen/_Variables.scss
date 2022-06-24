@@ -4,11 +4,11 @@
     /* FONT */
     @font-face {
         font-family: "font-1";
-        src: url(../assets/fonts/RobotoSlab.ttf);
+        src: url(./assets/fonts/LeagueGothic.ttf);
     }
     @font-face {
         font-family: "font-2";
-        src: url(../assets/fonts/BIZUDPMincho.ttf);
+        src: url(./assets/fonts/LeagueGothic.ttf);
     }
 
     /* TITLE */
@@ -25,6 +25,7 @@
     --white: #fff;
     --black: #000;
     --lightRed: #FF4F4F;
+    --lightRed2: #a23c3c95;
     --darkRed: #FF0000;
     --lightPurple: #F045FE;
     --darkPurple: #EC00FF;
@@ -41,7 +42,7 @@
 
     /* COLORS SPECIAL */ 
     --background-color: #FCFAF3;
-    --navBar-color: #FADFA0;
+    --navBar-color: #fcedca;
     --facebook-color: #3b5998;
     --discord-color: #7289da;
 

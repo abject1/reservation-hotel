@@ -1,0 +1,64 @@
+.container {
+    // HEADER
+    header {
+        background: url(../assets/img/plage_miami.jpg) center no-repeat;
+        padding: 0.2rem 0;
+        h1 {
+            text-align: center;
+            color: var(--lightBlue);
+            border: 1px solid var(--black);
+            margin: 0 25px;
+            border-radius: 5px;
+            box-shadow: 6px 6px 1px 1px var(--lightBlue);
+            text-transform: uppercase;
+        }
+        // MENU BURGER
+        #menuBurger {
+            display: block;
+            margin-top: 0.8rem;
+            margin-left: 1.2rem;
+            .menuBurgerSpan {
+                background-color: var(--black);
+                height: 3.5px;
+                width: 20px;
+                display: block;
+                margin: 0.1rem 0;
+            }
+        }
+        // NAVIGATION
+        nav {
+            background-color: var(--navBar-color);
+            display: none;
+            text-align: center;
+            ol {
+                padding: 0 0.3rem;
+            }
+        }
+
+    }
+    // PRESENTATION
+    .presentation {
+        background: linear-gradient(164deg, var(--lightBlue) 0%, var(--grey100) 100%);
+        border: 1px solid var(--lightRed2);
+        border-radius: 5px;
+        margin-top: 0.4rem;
+        h3 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        // PREMIER TEXTE
+        p {
+            text-align: center;
+            line-height: 1.1rem; 
+        }
+        button {
+            margin-bottom: 0.2rem;
+        }
+        // SECOND TEXTE
+        #nextPresentation {
+            text-align: center;
+            line-height: 1.1rem;
+            display: none;
+        }
+    }
+}

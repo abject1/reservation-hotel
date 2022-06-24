@@ -1,78 +1,16 @@
 /* CLASSES GENERAL */
-
-// CONTAINER
-
-.container {
-    width: 90vw;
-    display: block;
-    margin: auto;
-    border-radius: var(--borderRadiusClassic);
-}
-
-// Pages
-
-// Error
-
-.underline404 {
-    height: 5px;
-    width: 30vw;
-    background-color: var(--grey400);
-    display: block;
-    margin: 0 auto;
-}
-
-.underlineShopHeader {
-    height: 5px;
-    width: 90vw;
-    background-color: var(--grey400);
-    display: block;
-    margin: 0.4rem auto;
-}
-
-// About
-
-.underlineAbout {
-    height: 5px;
-    width: 40vw;
-    background-color: var(--grey400);
-    display: block;
-    margin: 0 auto;
-}
-
-// Home
-
-.seenNextMyPresentation {
-    display: block !important;
-}
-
-.seenNextEntreprise {
-    display: block !important;
-}
-
-// Components
+ 
+// Index
 
 // Navigation
 
-.navigationSeen {
+.navSeen {
+    display: inline-block !important; 
+    animation: 2s ease-in-out;
+}
+
+// Suite de la présentation 
+
+.nextSeenPresentation {
     display: block !important; 
-}
-
-// Header
-
-.underlineTitleHeader {
-    height: 5px;
-    width: 85vw;
-    background-color: var(--grey400);
-    display: block;
-    margin: auto;
-}
-
-// Navigation Home
-
-.ulPresentationSeen {
-    display: inline !important;    
-}
-
-.ulProduitSeen {
-    display: inline !important;
 }

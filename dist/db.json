@@ -1,0 +1,34 @@
+{
+    "user":{
+        "premier":{
+            "firstName":"Marjorie",
+            "lastName":"Salingue",
+            "age":20
+        },
+        "second":{
+            "firstName":"Lucas",
+            "lastName":"Wurtz",
+            "age":22
+        },
+        "troisieme":{
+            "firstName":"Maxime",
+            "lastName":"Schonenberger",
+            "age":29
+        },
+        "quatrieme":{
+            "firstName":"Bernad",
+            "lastName":"Germain",
+            "age":53
+        },
+        "cinquieme":{
+            "firstName":"Lucie",
+            "lastName":"Clermont",
+            "age":32
+        },
+        "sixieme":{
+            "firstName":"Fabien",
+            "lastName":"Huliane",
+            "age":37
+        }
+    }
+}
