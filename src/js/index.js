@@ -15,3 +15,8 @@ menuBurger.addEventListener("click", () => {
 btnPres.addEventListener("click", () => {
   nextTextPres.classList.toggle("nextSeenPresentation");
 });
+
+// DECLARATION DES AVIS
+
+const avis1 = Math.floor(Math.random(0, 10) * 10);
+console.log(avis1);
