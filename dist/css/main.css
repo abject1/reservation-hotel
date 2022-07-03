@@ -6,6 +6,9 @@
 .nextSeenPresentation {
   display: block !important; }
 
+.avisSeen {
+  display: block !important; }
+
 /* ROOT */
 :root {
   margin: 0;
@@ -174,3 +177,49 @@ ol {
     text-align: center;
     line-height: 1.1rem;
     display: none; }
+
+.container #lesAvis {
+  background: linear-gradient(164deg, var(--lightBlue) 10%, var(--grey100) 98%);
+  padding: 0.2rem;
+  margin-top: 0.4rem;
+  border-radius: 5px; }
+  .container #lesAvis div {
+    background-color: var(--grey100);
+    border: 1.5px solid var(--black);
+    border-radius: 5px;
+    margin: 0.4rem;
+    display: grid;
+    grid-template-areas: 'prenom nom age' 'underline underline underline' 'titre titre titre' 'btn btn btn' 'commentaire commentaire commentaire'; }
+    .container #lesAvis div h2 {
+      margin: 0.2rem;
+      grid-area: prenom;
+      text-transform: uppercase; }
+    .container #lesAvis div h3 {
+      margin: 0.2rem;
+      text-transform: uppercase;
+      grid-area: nom; }
+    .container #lesAvis div h6 {
+      margin: 0.2rem;
+      grid-area: age;
+      margin: auto 0; }
+    .container #lesAvis div #underline {
+      background-color: var(--black);
+      display: block;
+      grid-area: underline;
+      border: none;
+      height: 2px;
+      margin-top: 0.1rem; }
+    .container #lesAvis div em {
+      margin-top: 0.2rem;
+      color: var(--lightRed);
+      text-decoration: underline;
+      text-align: center;
+      grid-area: titre;
+      text-transform: uppercase; }
+    .container #lesAvis div button {
+      grid-area: btn;
+      margin: 0.3rem auto; }
+    .container #lesAvis div p {
+      text-align: center;
+      grid-area: commentaire;
+      display: none; }
